@@ -10,9 +10,6 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.models import Variable
 
-import sys
-sys.path.insert(0, '/Users/anum_sheraz/anum/airflow-steam-ingestion')
-
 from src.database import MySQLConnector, DatabaseManager
 from src.steam_api import SteamAPIClient
 from src.data_processing import DataProcessor

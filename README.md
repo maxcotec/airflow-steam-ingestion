@@ -2,6 +2,9 @@
 
 A comprehensive Apache Airflow 3 data pipeline for ingesting and analyzing Steam game data. The pipeline collects trending game information, player counts, and popularity statistics hourly and stores them in a local MySQL database.
 
+Youtube tutorial Link: https://youtu.be/fuqF60beLdk?si=N8f4nlY34WZnqEmd
+![youtube video.png](youtube%20video.png)
+
 ## Architecture Overview
 
 ```
